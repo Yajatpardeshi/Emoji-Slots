@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Slots Arcade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="machine">
+    <p class="tag">ARCADE GAME • HAVE FUN</p>
+    <h1>EMOJI SLOTS</h1>
+    <p class="subtitle">Match all three emojis to win points!</p>
+
+    <section class="score-box">
+      <div><span>YOUR SCORE</span><strong id="score">100</strong></div>
+      <div><span>LAST RESULT</span><strong id="result">Ready?</strong></div>
+    </section>
+
+    <section class="reels" aria-label="Slot machine">
+      <div class="reel" id="reel1">🍒</div>
+      <div class="reel" id="reel2">⭐</div>
+      <div class="reel" id="reel3">🔔</div>
+    </section>
+
+    <p id="message" class="message">Press SPIN to start playing.</p>
+    <button id="spinButton">SPIN</button>
+    <p class="rules">Each spin costs 10 points. Matching 3 emojis wins 100 points.</p>
+    <footer>Made with HTML, CSS and JavaScript</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
